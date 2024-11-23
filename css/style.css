@@ -1,0 +1,449 @@
+
+body {
+    width: 1200px;
+    margin: 0 auto;
+    }
+
+a {
+        text-decoration: none;
+        color:black;
+    }
+
+p {
+    color: #222222;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo_img {
+    margin: 20px;
+}
+
+nav {
+    width: 100%;
+    font-size: 21px;
+}
+
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 25px;
+}
+
+li {
+    display: flex;
+    padding: 25px;
+}
+
+
+.menu-text {
+    margin-right: 50px;
+}
+
+.title_box {
+    background: url(../img/mainbg.png); 
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.maintitle {
+    font-size: 48px;
+    color: aliceblue;
+    text-align: center;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 32px;
+    color: aliceblue;
+    text-align: center;
+    line-height: 62px; 
+}
+
+.introduction_box {
+    text-align: center
+}
+.introduction_title {
+    padding: 60px;
+    text-align: center;
+}
+
+h1 {
+    color: #ffd61a;
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+.introduction_text_1 {
+    padding-bottom: 30px;
+
+}
+.introduction_text_3 {
+    padding: 40px;
+}
+
+.introduction_text_4 {
+    padding-bottom: 80px;
+}
+
+.banner {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.banner_img {
+    width: 300px;
+}
+
+h3 {
+    color: #ffd61a;
+    font-size: 24px;
+    text-align: center;
+}
+
+.part_0 {
+    text-align: center;
+    font-size: 24px;
+    padding: 60px;
+}
+
+h2 {
+    font-size: 28px;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+.part_img {
+    width: 600px;
+}
+
+.part_1 {
+  display: flex;
+}
+
+.part_text_1 {
+    width: 430px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.title_1 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+
+.text_1 {
+    font-size: 16px;
+    margin-left: 50px;
+}
+
+
+.part_2 {
+    display: flex;
+}
+
+.part_text_2 {
+    width: 430px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    margin-left: 100px;
+}
+
+.part_img_2 {
+    width: 600px;
+    margin:0 0 0 auto;
+}
+
+.title_2 {
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 50px;
+    margin-bottom: 40px;
+}
+
+.text_2 {
+    font-size: 16px;
+    margin-left: 50px;
+}
+
+.part_3 {
+    display: flex;
+}
+
+.part_text_3 {
+    width: 430px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.title_3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+
+.text_3 {
+    font-size: 16px;
+    margin-left: 50px;  
+}
+
+
+.news_title {
+    text-align: center;
+    padding : 30px;
+}
+
+h3 {
+    font-size: 28px;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+.card_content {
+    display: flex;
+    justify-content: center;
+}
+
+.card_img {
+    width: 300px;
+}
+
+.card_text {
+    width: 300px;
+    font-size: 16px;
+    overflow-wrap:break-word ;    
+}
+
+.card_box {
+    margin: 30px;
+    width: 100%;
+}
+
+.card_box:hover {
+    opacity: 0.6;
+}
+
+.date {
+    padding-bottom: 24px;
+}
+
+.button_more {
+    text-align: center;
+    font-size: 18px;
+    margin: 60px;
+}
+
+.button_more:hover {
+    opacity: 0.5;
+  }
+
+.map_box {
+    background-color: rgb(249, 240, 229);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.access_title {
+    padding: 60px;
+}
+
+h4 {
+    font-size: 28px;
+    padding-bottom: 40px; 
+    font-weight: bold;
+}
+
+.map {
+    padding-bottom: 30px;
+}
+
+.info {
+    padding: 60px; 
+    flex-wrap: wrap;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dl {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+}
+
+
+dt {
+    float: left;
+    clear: left;
+    margin-right: 30PX;
+    width: 100px;
+    text-align: left;
+    line-height: 50PX;
+}
+
+dd {
+    float: left;
+    margin-left: 30PX;
+    line-height: 50PX;
+}
+
+
+input[type="submit"]  {
+    font-size: 20px;
+    color: aliceblue;
+    background-color: #ffd61a;
+    border:none;
+    padding: 15px 150px;
+    margin-top: 30px;
+}
+
+.form_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form_contact {
+    width: 700px;
+}
+
+.form_text_0 {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.form_text_1 {
+    padding-top: 30px;
+    text-align: center;
+}
+.form_text_2 {
+    padding-top: 30px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+h5 {
+   font-size: 28px;
+   padding-top: 60px;
+   font-weight: bold;
+}
+
+.contact {
+    width: 685.61px;
+}
+
+.form_dt {
+    float: left;
+    clear: left;
+    margin : 0;
+    padding: 0;
+    width: 300px;
+    text-align: left;
+    border-top: 1px solid #ccc;
+    vertical-align: top;
+    height: 60px;
+    
+}
+.form_dd {
+    width: 385.61px;
+    margin: 0;
+    padding: 8px;
+    float: left;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+
+}
+
+.label {
+    padding-left: 10px;
+}
+
+textarea {
+    resize:none;
+}
+
+.checkbox_text {
+    margin-left: 0PX;
+    line-height: 30PX;
+    border-top: 1px solid #ccc;
+    padding: 8px;
+    border-left: 1px solid #ccc;
+}
+
+.form_checkbox {
+    padding: 0;
+    margin: 0;
+}
+
+.check {
+    text-align: left;
+    padding: 0;
+}
+
+.form_dd_box {
+    margin: 0;
+    border-top: 1px solid #ccc;
+}
+
+input[type="text"] {
+    width: 290px;
+}
+
+select {
+    width: 300px;
+    font-size: 20px;
+}
+
+.contact_name {
+    float: left;
+    clear: left;
+    margin-right: 30PX;
+    width: 600px;
+    text-align: left;
+    line-height: 50PX;
+}
+
+.button {
+    text-align: center;
+}
+
+.button:hover { 
+    opacity: 0.5;
+}
+footer {
+    width: 1200px;
+    background-color: #707070;
+    text-align: center;
+    line-height: 30px;
+    padding: 30px;
+    margin-top: 140px;
+}
+
+.footer_text p {
+    color: white
+}
